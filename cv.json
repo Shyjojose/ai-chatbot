@@ -1,0 +1,281 @@
+{
+    "applicant": {
+      "name": "Shyjo Jose",
+      "contact": {
+        "phone": "+49 155 103 14661",
+        "email": "joseshyjoct@gmail.com"
+      },
+      "address": "Unterislinger Weg 39, 93053 Regensburg",
+      "date_of_birth": "02.05.1996",
+      "place_of_birth": "Thrissur, India",
+      "linkedin": "https://www.linkedin.com/in/shyjo-jose-b90993145/",
+      "github": "https://github.com/Shyjojose"
+    },
+    "profile": {
+      "title": "AI Engineer Specializing in AI Agents",
+      "summary": "Innovative AI Engineer with a strong academic foundation and hands-on experience in artificial intelligence, machine learning, and software development. Pursuing a Master's in Artificial Intelligence for Smart Sensors and Actuators at Deggendorf Institute of Technology, with a focus on neural networks, system design, and cloud computing. Proven expertise in deploying AI-driven solutions such as sentiment analysis models, computer vision applications, and predictive analytics. Currently seeking an internship opportunity in the field of LLM fine tuning."
+    },
+    "work_experience": [
+      {
+        "position": "IT Support Engineer",
+        "company": "Forcepoint",
+        "location": "Straubing, Germany",
+        "start_date": "01/2024",
+        "responsibilities": [
+          "Installed and configured DLP agents.",
+          "Ensured smooth transition to new single point server safety.",
+          "Analyzed workstation post installation and resolved HTTP filtering issues.",
+          "Documented installation processes and provided remote support to employees."
+        ]
+      },
+      {
+        "position": "System Engineer",
+        "company": "Infosys Pvt. Ltd.",
+        "location": "Trivandrum, India",
+        "start_date": "07/2021",
+        "end_date": "06/2023",
+        "projects": [
+          {
+            "name": "Tractor Supply Application (TSC Project Infosys)",
+            "responsibilities": [
+              "Developed a React Native application for a US-based client specializing in sale of farming equipment and supplies.",
+              "Part of a team of five front-end developers, overseeing the UI development for Android and iOS platforms.",
+              "Implemented CI/CD processes using Jenkins and managed deployments for React Native applications.",
+              "Technologies used: React Native, Bitbucket, Jenkins, Android Emulator, Jira."
+            ]
+          },
+          {
+            "name": "Akshaya Project",
+            "responsibilities": [
+              "Monitored and analyzed five international e-commerce websites, including Nike, to identify and report payment and UI related issues.",
+              "Collaborated closely with back-end teams to resolve issues, prioritizing payment bugs.",
+              "Generated detailed bug reports and created tickets using Atlassian Jira.",
+              "Daily documented crash reports of websites.",
+              "Technologies used: Firebase by Google, Jira."
+            ]
+          },
+          {
+            "name": "Bug Fixing and Reporting",
+            "responsibilities": [
+              "Fixed UI bugs in landing pages.",
+              "Generated detailed bug reports and recreated issues for resolution.",
+              "Managed issue tracking and resolution through Atlassian Jira, ensuring effective communication and resolution tracking."
+            ]
+          }
+        ]
+      },
+      {
+        "position": "SEO Specialist Engineer",
+        "company": "Kalyan Bikes Pvt. Ltd.",
+        "location": "Thrissur, India",
+        "start_date": "06/2020",
+        "end_date": "11/2020",
+        "responsibilities": [
+          {
+            "task": "Website Optimization and Content Management",
+            "details": [
+              "Improved website performance by optimizing HTML, CSS, and JavaScript code for faster load times and better SEO ranking.",
+              "Managed content updates and ensured alignment with SEO best practices."
+            ]
+          },
+          {
+            "task": "Reporting and KPI Tracking",
+            "details": [
+              "Monitored campaign performance and website analytics using Meta Business Suite.",
+              "Generated detailed reports highlighting key performance indicators (KPIs) to guide strategic decision-making and marketing efforts.",
+              "Technologies used: HTML, CSS, JavaScript, Meta Business Suite."
+            ]
+          }
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "M. Eng. AI for Smart Sensors and Actuators",
+        "institution": "Deggendorf Institute of Technology",
+        "location": "Germany",
+        "start_date": "06/2023",
+        "end_date": "present",
+        "courses": [
+          "Cloud Computing",
+          "Neural Networks",
+          "Large Language Models (LLMs)",
+          "Big Data",
+          "System Design",
+          "Machine Learning",
+          "Computer Vision",
+          "Natural Language Processing"
+        ],
+        "current_average_grade": 2.46
+      },
+      {
+        "degree": "B. Eng. Mechanical Engineering",
+        "institution": "APJ Abdul Kalam Technological University",
+        "location": "Kerala",
+        "start_date": "06/2015",
+        "end_date": "08/2019",
+        "courses": [
+          "Mathematics and Statistics",
+          "Manufacturing and Production Optimization",
+          "Design and Analysis"
+        ],
+        "thesis": "Crack Detection Robot in Railway Track",
+        "final_grade": 2.5
+      }
+    ],
+    "certificates": [
+      {
+        "name": "Power BI",
+        "issuer": "Microsoft",
+        "year": 2025
+      },
+      {
+        "name": "IBM AI Developer",
+        "issuer": "IBM",
+        "year": 2024
+      },
+      {
+        "name": "Microsoft Azure Fundamental AZ-900",
+        "issuer": "Microsoft",
+        "year": 2022
+      },
+      {
+        "name": "Introduction to Git and GitHub",
+        "issuer": "Google",
+        "year": 2022
+      },
+      {
+        "name": "Crash Course on Python",
+        "issuer": "Google",
+        "year": 2022
+      },
+      {
+        "name": "Using Python to Interact with the Operating System",
+        "issuer": "Google",
+        "year": 2022
+      },
+      {
+        "name": "Intermediate Machine Learning and Python",
+        "issuer": "Kaggle",
+        "year": 2021
+      },
+      {
+        "name": "Master Diploma in Product Design and Analysis",
+        "issuer": "CADD Centre Training Services Private Limited",
+        "year": 2019
+      }
+    ],
+    "accomplishments": [
+      {
+        "type": "Scholarship",
+        "description": "Tuition fee waiver scheme/ APJ Technological University",
+        "duration": "06/2015 -- 08/2019"
+      },
+      {
+        "type": "Volunteering",
+        "description": "Covid deceased person, cremation help for church",
+        "duration": "09/2020 -- 02/2021"
+      }
+    ],
+    "project_experience": [
+      {
+        "name": "Chat bot Web-Interface",
+        "type": "Personal Project",
+        "certification": "IBM AI Developer Certification",
+        "year": 2024,
+        "details": [
+          "Developed chat web interface using Facebook blenderbot-400m free model.",
+          "Integrated with flask server.",
+          "Tools Used: Python, Flask."
+        ]
+      },
+      {
+        "name": "Differential Picker Robot",
+        "type": "Case Study",
+        "institution": "Deggendorf Institute of Technology",
+        "year": 2024,
+        "details": [
+          "Designed and developed a picker robot virtually and tested it in ROS environment for path finding.",
+          "Tools Used: Python, ROS (Noetic), Linux."
+        ]
+      },
+      {
+        "name": "Sentiment Analysis",
+        "type": "Personal Project",
+        "certification": "Coursera Certification",
+        "year": 2021,
+        "details": [
+          "Sentiment analysis with PyTorch BERT model and adjusted the architecture for multiclass classification."
+        ]
+      },
+      {
+        "name": "Arduino MAZE Solving Robot",
+        "type": "Personal Project",
+        "year": 2020,
+        "details": [
+          "The line maze solved by IR sensor with LSRB algorithm.",
+          "Using 3 sensor array for accurate solution."
+        ]
+      },
+      {
+        "name": "Detecting COVID-19 with Chest X-Ray",
+        "type": "Personal Project",
+        "year": 2020,
+        "details": [
+          "3000 chest X-Ray scans which are categorized in three classes - Normal, Viral Pneumonia and COVID-19."
+        ]
+      },
+      {
+        "name": "Azure Projects",
+        "type": "Personal Project",
+        "year": 2020,
+        "details": [
+          "Created virtual machine in Azure instead of preset used advanced security settings."
+        ]
+      }
+    ],
+    "skills": {
+      "technical": [
+        "C++",
+        "SQL",
+        "Python programming (TensorFlow, PyTorch, Keras)",
+        "Azure machine learning studio",
+        "CI/CD integration using Jenkins",
+        "Microservices, React",
+        "Atlassian Tools, Docker",
+        "Microsoft Office (Excel, Word, PowerPoint)",
+        "MATLAB & Simulink",
+        "Power BI",
+        "Optimization Algorithms",
+        "MS Office"
+      ],
+      "professional": [
+        "Strong problem-solving and analytical thinking abilities",
+        "Excellent communication skills",
+        "Effective collaboration within cross-functional teams",
+        "High attention to detail and quality awareness",
+        "Self-motivated and able to work independently or as part of a team"
+      ]
+    },
+    "languages": [
+      {
+        "language": "English",
+        "proficiency": "Fluent",
+        "certification": "IELTS C1, Band 7.0"
+      },
+      {
+        "language": "German",
+        "proficiency": "Goethe B1"
+      },
+      {
+        "language": "Malayalam",
+        "proficiency": "Mother Tongue"
+      }
+    ],
+    "interests": [
+      "Technology Enthusiast",
+      "Social Media Content Creation",
+      "Hiking",
+      "Badminton"
+    ]
+  }
