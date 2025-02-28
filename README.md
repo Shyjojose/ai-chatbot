@@ -157,8 +157,8 @@ app.use(cors());
 
 ## 🎯 Future Improvements
 - ✅ Store chat history in a database (MongoDB, Firebase)
-- ✅ Add authentication for secure access
-- ✅ Deploy to a cloud server (e.g., Vercel, Heroku)
+- ✅ vector database (advanced Rag) 
+- ✅ Multimodal search 
 
 ---
 
