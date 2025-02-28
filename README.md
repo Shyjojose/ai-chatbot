@@ -61,7 +61,7 @@ EMAIL_PASS=your-app-password
 #### **Start Backend**
 ```sh
 cd backend
-node server.js
+node gserver.js
 ```
 #### **Start Frontend**
 ```sh
@@ -74,8 +74,9 @@ The app will be available at: **`http://localhost:3000`** 🎉
 ---
 
 ## 💡 Features
-✅ AI Chat powered by **Google Gemini API**  
-✅ **Only responds** based on **Shyjo’s CV details**  
+✅ AI Chat powered by **Google Gemini API 1.5 Flash**  
+✅ **Only responds** based on **Shyjo’s CV details**
+✅ **The CV is given by Package.json in the prompt** 
 ✅ **Stylish UI** with a chat interface  
 ✅ **Chat Summary via Email**  
 ✅ **Secure API Key & Email Credentials**  
@@ -93,10 +94,21 @@ The app will be available at: **`http://localhost:3000`** 🎉
 **Response:**
 ```json
 {
-  "reply": "Shyjo has 5+ years of experience in software development."
+  "reply": "Shyjo has 2+ years of experience in software development."
 }
 ```
-
+**Request:**
+```json
+{
+  "message": "tell me about his programming skills?"
+}
+```
+**Response:**
+```json
+{
+  "reply": "Shyjo is proficient in C++, SQL, and Python programming, including TensorFlow, PyTorch, and Keras. He has experience with CI/CD integration using Jenkins and is familiar with Microservices and React. His projects demonstrate the application of these skills in areas such as developing a chatbot web interface using Flask and building a sentiment analysis model with PyTorch BERT. He also has experience using Python in a ROS environment for robotics projects."
+}
+```
 ### 🔹 `/send-email` (POST) → Send Chat Summary
 **Request:**
 ```json
