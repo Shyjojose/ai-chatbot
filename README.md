@@ -1,70 +1,160 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# AI Chatbot with Google Gemini API
 
-## Available Scripts
+## 🚀 Project Overview
+This project is a **chatbot web application** powered by Google Gemini API. Users can chat with an AI that provides responses based only on **Shyjo's professional details**. Additionally, the chat history can be emailed as a summary.
 
-In the project directory, you can run:
+## 🛠️ Tech Stack
+- **Frontend**: React (Styled UI)
+- **Backend**: Node.js with Express
+- **AI Model**: Google Gemini API
+- **Email Service**: Nodemailer (Gmail SMTP)
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📂 Project Structure
+```
+my-chatbot/
+│── frontend/        # React frontend
+│── backend/         # Express backend
+│── .env             # Environment variables
+│── README.md        # Project documentation
+│── package.json     # Dependencies
+```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🏗️ Setup Instructions
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🔹 1. Clone the Repository
+```sh
+git clone https://github.com/your-repo/my-chatbot.git
+cd my-chatbot
+```
 
-### `npm run build`
+### 🔹 2. Install Dependencies
+#### **Backend**
+```sh
+cd backend
+npm install
+```
+#### **Frontend**
+```sh
+cd ../frontend
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🔑 3. Configure Environment Variables
+Create a **`.env`** file in the **backend** directory and add:
+```
+GEMINI_API_KEY=your-gemini-api-key
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-app-password
+```
+💡 **Note**: Use an **App Password** for Gmail authentication ([Generate it here](https://myaccount.google.com/apppasswords)).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## 🚀 4. Run the Application
+#### **Start Backend**
+```sh
+cd backend
+node server.js
+```
+#### **Start Frontend**
+```sh
+cd frontend
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+The app will be available at: **`http://localhost:3000`** 🎉
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 💡 Features
+✅ AI Chat powered by **Google Gemini API**  
+✅ **Only responds** based on **Shyjo’s CV details**  
+✅ **Stylish UI** with a chat interface  
+✅ **Chat Summary via Email**  
+✅ **Secure API Key & Email Credentials**  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📩 API Endpoints
+### 🔹 `/chat` (POST) → AI Chat Response
+**Request:**
+```json
+{
+  "message": "What is Shyjo's experience?"
+}
+```
+**Response:**
+```json
+{
+  "reply": "Shyjo has 5+ years of experience in software development."
+}
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### 🔹 `/send-email` (POST) → Send Chat Summary
+**Request:**
+```json
+{
+  "chatHistory": [
+    {"sender": "You", "text": "Hello!"},
+    {"sender": "AI", "text": "Hi there!"}
+  ]
+}
+```
+**Response:**
+```json
+{
+  "message": "Email sent successfully!"
+}
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 🎨 UI Preview
+The chat interface includes:
+- **Modern, Responsive UI**
+- **Chat Bubbles for User & AI**
+- **Send & Email Summary Buttons**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
+## 🛠️ Troubleshooting
+**1. API Key Not Working?**
+- Ensure you **correctly set up `.env`** with your **Google Gemini API Key**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+**2. Email Not Sending?**
+- Use a **Google App Password** instead of your actual password.
 
-### Making a Progressive Web App
+**3. CORS Issues?**
+- Install and use **CORS middleware** in the backend:
+```sh
+npm install cors
+```
+```js
+import cors from "cors";
+app.use(cors());
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## 🎯 Future Improvements
+- ✅ Store chat history in a database (MongoDB, Firebase)
+- ✅ Add authentication for secure access
+- ✅ Deploy to a cloud server (e.g., Vercel, Heroku)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## 📜 License
+MIT License © 2025 **Shyjo's AI Chatbot**
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+---
 
-### `npm run build` fails to minify
+## 🌟 Contributors
+💻 Developed by **Shyjo** 🚀
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
