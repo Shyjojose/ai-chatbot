@@ -3,7 +3,7 @@
 
 ## 🚀 Project Overview
 This project is a **chatbot web application** powered by Google Gemini API. Users can chat with an AI that provides responses based only on **Shyjo's professional details**. Additionally, the chat history can be emailed as a summary.
-![alt text](
+![alt text](https://github.com/Shyjojose/ai-chatbot/blob/main/image.png)
 
 
 
